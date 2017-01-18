@@ -5,7 +5,7 @@ import datetime
 
 def days_till_pycon():
     today = datetime.date.today()
-    pycon_start = datetime.date(2016, 4, 23)
+    pycon_start = datetime.date(2017, 4, 8)
     if pycon_start > today:
         return "PyCon Ukraine starts in {0} days".format(
             (pycon_start - today).days)
